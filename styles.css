@@ -1,0 +1,108 @@
+/* Existing CSS */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #36BA98;
+}
+.container {
+    background-color:#E9C46A;
+    width: 500px;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 5% auto 5%;
+    border: none;
+    box-shadow: 0 0 10px grey;
+}
+.logo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    height: 50px;
+    margin: 1rem;
+}
+input {
+    line-height: 2.1rem;
+    width: 30rem;
+    background-color: #fff3d3;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+button {
+    height: 2.2rem;
+    width: 5.2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #36BA98;
+    margin-left: 2%;
+    color: white;
+}
+button:hover {
+    background-color:#159b7a;
+    cursor: pointer;
+}
+.task-input {
+    background-color:#fff3d3;
+    border-radius: 1rem;
+    display: flex;
+}
+li {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    list-style-type: none;
+    display: block;
+    flex-grow: 1;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.li-class2 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: line-through;
+    color: rgb(65, 20, 20);
+}
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.img-unck {
+    height: 1.7rem;
+}
+span:hover {
+    background-color: rgb(196, 196, 196);
+}
+.task-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FEF9D9;
+    border-radius: 4px;
+    width: 100%; 
+    max-width: 460px;
+    border-radius: 1rem;
+}
+.delete-btn {
+    margin: 0 1.5rem 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
